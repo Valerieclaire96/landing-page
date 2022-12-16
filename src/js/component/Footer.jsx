@@ -1,8 +1,10 @@
 import React from "react";
 
 const Footer = () => {
-    <footer className="footer">
+   return (
+   <nav className="navbar navbar-expand-lg bg-dark">
         <p>Copyright Your Website 2022</p>
-    </footer>  
+    </nav>
+);
 }
 export default Footer
