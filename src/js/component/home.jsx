@@ -8,23 +8,26 @@ import Footer from "./Footer.jsx"
 //create your first component
 const Home = () => {
 	return (
-		<div className="container">
-		 	<div>
-				<Navbar/>
-			</div> 
+		<>
+			<div>
+		 		<Navbar/>
+		 	</div> 
+			<div className="container"> 
 			<div>
 				<Jumbotron/>
 			</div>
-
-			<div>
+			  <div className="cards">
+			 	<Card/>
+			 	<Card/>
+			 	<Card/>
 				<Card/>
-				<Card/>
-				<Card/>
-			</div> 
+			 </div> 
+			 </div> 
 			<div>
 				<Footer/>
-			</div>
-		</div>
+			</div> 
+		
+		</>
 	);
 }
 export default Home;

@@ -10,7 +10,35 @@
     import 'relative/path/to/stylesheet.scss';
 
 */
-/* .footer (
-    background-color: grey;
-    display: flex; 
-) */
+
+    /* display: flex; */
+    /* flex-direction: column; */
+    /* justify-content: center;
+    align-items: center; */
+    
+
+.navbar {
+    background-color: rgb(61, 60, 60);
+    color: white
+}
+.jumbotron {
+    padding: 0 10px 0px 10px;
+    background-color: rgba(221, 217, 217, 0.486);
+    height: 300px;
+}
+.cards {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.card {
+ margin: 5px 10px ;
+}
+.footer {
+    width: 100%;
+    color: white;
+    background-color: rgb(61, 60, 60);
+    height: 50px;
+    text-align: center;
+    padding-top: 25px;
+}

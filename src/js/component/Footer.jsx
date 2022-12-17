@@ -2,9 +2,11 @@ import React from "react";
 
 const Footer = () => {
    return (
-   <nav className="navbar navbar-expand-lg bg-dark">
-        <p>Copyright Your Website 2022</p>
-    </nav>
+    
+        <div className="footer">
+                <p>Copyright Your Website 2022</p>
+        </div>
+    
 );
 }
 export default Footer
